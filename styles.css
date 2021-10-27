@@ -52,6 +52,6 @@ button {
     background-color: greenyellow;
 }
 
-.zero {
+[id="0"] {
     flex-grow: 2;
 }
