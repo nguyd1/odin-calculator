@@ -4,11 +4,21 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: lightblue;
+}
+
+.container {
+    background-color: black;
+    padding: 16px;
 }
 
 .display {
     text-align: right;
-    font-size: 50px;
+    font-size: 75px;
+    color: white;
+    background-color: gray;
+    padding-right: 8px;
+    margin-bottom: 16px;
 }
 
 .row {
@@ -16,8 +26,21 @@ body {
 }
 
 button {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 75px;
+    border: 0;
+    padding: 0;
+    margin: 2px;
+    background-color: white;
+    font-size: 25px;
+}
+
+.clear {
+    background-color: red;
+}
+
+.negate, .fraction, .divide, .multiply, .subtract, .add, .equal {
+    background-color: greenyellow;
 }
 
 .zero {
