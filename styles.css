@@ -48,7 +48,7 @@ button {
     background-color: red;
 }
 
-.negate, .fraction, .divide, .multiply, .subtract, .add, .equal {
+.negate, .fraction, .operator, .equal {
     background-color: greenyellow;
 }
 
